@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # API Key and Base URL
-api_key = "xyz"
+api_key = "zyx"
 base_url = "http://api.openweathermap.org/data/2.5/forecast"
 
 # Cities and their coordinates
