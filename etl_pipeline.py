@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # API Key and Base URL
-api_key = "fakeforsecuirty"
+api_key = "xyz"
 base_url = "http://api.openweathermap.org/data/2.5/forecast"
 
 # Cities and their coordinates
@@ -58,10 +58,10 @@ import psycopg2
 
 # Database connection details
 db_config = {
-    "host": "fakeforsecuirty",         # Or your cloud DB host (e.g., Heroku)
-    "database": "fakeforsecuirty",  # Database name
-    "user": "fakeforsecuirty",     # Replace with your username
-    "password": "fakeforsecurity"  # Replace with your password
+    "host": "xyz",         # Or your cloud DB host (e.g., Heroku)
+    "database": "xyz",  # Database name
+    "user": "xyz",     # Replace with your username
+    "password": "xyz"  # Replace with your password
 }
 
 # Function to insert data into PostgreSQL
